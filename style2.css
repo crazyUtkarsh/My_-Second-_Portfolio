@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #191d2b;
+}
+.main-container{
+    text-align: center;
+}
+.main-container h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    color: #fff;
+}
+.blur-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px!important;
+    opacity: 0.1;
+}
+.second-container{
+    margin-top: 32px;
+    text-align: center;
+}
+.written-part{
+   padding-right: 45%;
+   padding-left: 15%;
+}
+.written-part a{
+    text-decoration: none;
+}
+.written-part a:hover{
+    font-weight: bolder;
+}
+.written-part h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    text-align: left;
+}
+.written-part p{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    margin-top: 16px;
+}
+.third-container{
+    width: 150px;
+    height: 180px;
+    background-color: bisque;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+}
+.fourth-container{
+    width: 150px;
+    height: 180px;
+    background-color: bisque;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+.fifth-container{
+    width: 150px;
+    height: 180px;
+    background-color: bisque;
+    border-radius: 10px;
+    position: absolute;
+    left: 65%;
+    bottom: 5%;
+}
+.sixth-container{
+    width: 150px;
+    height: 180px;
+    background-color: bisque;
+    border-radius: 10px;
+    position: absolute;
+    left: 80%; 
+    bottom: 5%; 
+}
+@media (max-width:1024px) and (min-width:768px){
+    .written-part p{
+        font-size: 18px;
+        margin-top: 16px;
+        line-height: 1.4;
+    }
+    .containers{
+        width: 110px;
+    }
+    .fifth-container{
+        bottom: 2%;
+    }
+    .sixth-container{
+        bottom: 2%;
+    }
+}
+@media (max-width:768px) and (min-width:425px){
+    .blur-heading{
+        font-size: 65px!important;
+    }
+    .main-container h1{
+        font-size: 45px;
+    }
+    .written-part h3{
+        font-size: 25px;
+    }
+    .written-part p{
+        font-size: 15px;
+        margin-top: 15px;
+        line-height: 1.3;
+    }
+    .containers{
+        width: 90px;
+    }
+    .third-container{
+        left: 58%;
+    }
+    .fourth-container{
+        left: 80%;
+    }
+    .fifth-container{
+        left: 58%;
+        top: 70%;
+    }
+    .sixth-container{
+        left: 80%;
+        top: 70%;
+    }
+}
+@media (max-width:425px){
+    .blur-heading{
+        font-size: 45px!important;
+    }
+    .main-container h1{
+        font-size: 40px;
+    }
+.containers{
+    width: 80px;
+    height: 90px;
+}
+.written-part{
+    padding-left: 5px;
+}
+.written-part h3{
+    font-size: 20px;
+}
+.written-part p{
+    font-size: 15px;
+    line-height: 1.2;
+    margin-top: 5px;
+}
+.containers{
+    width: 55px;
+    height: 90px;
+}
+.third-container{
+    top: 40%;
+    left: 56%;
+}
+.fourth-container{
+    top: 40%;
+    left: 75%;
+}
+.fifth-container{
+    left: 56%;
+    bottom: 31%;
+}
+.sixth-container{
+    left: 75%;
+    bottom: 31%;
+}
+}
