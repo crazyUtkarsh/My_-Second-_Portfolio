@@ -61,6 +61,7 @@ body{
   color: #fff;
   font-size: 22px;
   font-family: 'DM Serif Display', serif;
+  margin-top: 15px;
 }
 .navbar a:hover{
   font-weight: bold;
@@ -70,6 +71,35 @@ button a{
 }
 button a:hover{
   font-weight: bold;
+}
+.hire-btn a{
+  text-decoration: none;
+}
+.hire-btn{
+  width: 120px;
+  height: 35px;
+  border: none;
+  background-color: #FFF5E4;
+  -webkit-box-shadow:0px 10px 13px -7px #000000,
+  5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: 0px 10px 13px -7px #000,5px 5px 15px  rgba(0,0,0,0);
+  color: whitesmoke;
+  border-radius: 10px;
+}
+.hire-btn:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 250ms;
+}
+.navbar div{
+  background-color: #000;
+  border-radius: 10px;
+  padding: 1px;
+  -webkit-box-shadow:0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0,0,0,0);
+  box-shadow: 0px 10px 13px -7px #000,5px 5px 15px  rgba(0,0,0,0);
+  color: whitesmoke;
+  margin-right: 5px;
 }
 @media (max-width:480px){
   body{
